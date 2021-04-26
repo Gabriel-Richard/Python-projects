@@ -1,5 +1,13 @@
+valor = float(input('Digite o valor da casa: R$'))
+salario = float(input('Digite o Salario do comprador: R$'))
+anos = float(input('Em quantos anos sera pego: '))
 
-n1 = str(input('digite um app q vc quer instalar: '))
-print ('esse app não pode ser \033p[31minstalado!\033[m')
+vano = valor/anos
+prestacao = vano / 12
 
+print('\033[4mPara pagar uma casa de R$:{} em {:.0f} anos a prestação sera de R${:.2f}\033[m'.format(valor, anos, prestacao))
 
+if prestacao < salario * 0.30:
+    print('\033[4mSeu emprestimo foi\033[m \033[36;mAPROVADO \033[m!')
+else:
+    print('\033[4mSeu imprestimo foi\033[m \033[31;mNEGADO\033[m')
