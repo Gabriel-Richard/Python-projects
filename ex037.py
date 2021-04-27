@@ -14,6 +14,7 @@ elif opcao == 2:
 elif opcao == 3:
     print('{}\033[34m convertido para HEXADECIMAL é igual a:\033[m {}'.format(n, hex(n)[2:]))
 else:
-    print('-=-'*8)
+    print('-=-'*9)
     print('\033[31mOpção invalida!!!\033[m')
-    print('-=-'*8)
+    print('-=-'*9)
+    
