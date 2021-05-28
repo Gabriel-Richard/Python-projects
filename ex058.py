@@ -24,3 +24,4 @@ else:
             tentativas += 1
 
     print(f'\033[32mvoce acertou com {tentativas} parabens!!!\033[m')
+    
