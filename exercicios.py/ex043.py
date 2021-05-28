@@ -36,3 +36,4 @@ elif imc >= 40:
     print('Você está com \033[31mOBESIDADE MÓRBIDA. CUIDADO!\033[m')
 else:
     print('Veja se preencheu corretamente e tente preencher novamente.')
+    

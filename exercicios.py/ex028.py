@@ -11,3 +11,4 @@ if n2 == n1:
     print('Voce acertou!!!')
 else:
     print('GANHEI! eu tnha pensado no numero {} nao no numero {}'.format(n1, n2))
+    

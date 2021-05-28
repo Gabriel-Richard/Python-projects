@@ -15,3 +15,4 @@ if cont == 2:
     print(' É por isso que ele É PRIMO')
 else:
     print(' É por isso que ele NÃO É PRIMO')
+    

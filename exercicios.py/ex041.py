@@ -26,3 +26,4 @@ elif idade > 25 and idade <= 120:
 
 else:
     print('Inexistente. Digite novamente...')
+    

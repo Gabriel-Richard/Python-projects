@@ -12,3 +12,4 @@ if cont == fs:
 else:
     print('O inverso de {} é {}'.format(frase, frase[::-1]))
     print('A frase digitada não é um PALINDROMO')
+    
