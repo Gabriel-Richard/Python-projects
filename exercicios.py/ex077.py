@@ -4,20 +4,25 @@ palavras = ('APRENDER', 'PROGRAMAR', 'LINGUAGEM', 'PYTHON', 'CURSOR', 'GRATIS', 
 
 
 
-palavras[0]
-
-
-
-
-
-
-
 
 
 
 for c in palavras:
+
     
-    for b in palavras[b].count('A,E,I,O,U'):
-        print
+    print(c.count('A'))
+
+    if 'A' in c.len():
+        print ('A')
+
+
+
+
+
+
+
+    # print(c.find('A'))
     
-    print(f'Na palavra {c} temos ')      
+
+    
+    #print(f'Na palavra {c} temos ')      
