@@ -1,26 +1,23 @@
 lista = []
 
-contMx = 0
-contMn = 0 
+
 for c in range (0, 5):
     n1 = int(input(f'Digite um valor para a posição {c}: '))
-    
-   #if contMx == 0:
-    #    contMx = n1 
-    #else:
-     #   contMx 
-
-
-    #print(contMx)     
+     
     lista.append(n1)    
 
+#for pric in lista [::-1]:
+ #   print (c)
+  #  print (lista.index (max(c)))
 
-valorMaximo = lista.index(max(lista))
+Vm = max(lista)
 
+for x in lista:
+    if vm == 
+    print (x)
 
 print ('-='*20)
 print (f'Voce digitou os valores {lista}')
-print (f'O maior valor digitado foi {max(lista)}. Nas posiçoes {lista.index(max(lista))}... {valorMaximo}...')
-print (f'O menor valor digitado foi {min(lista)}.')
+print (f'O maior valor digitado foi {max(lista)}. Nas posições {lista.index(max(lista))}... ...')
+print (f'O menor valor digitado foi {min(lista)}. Nas posições {lista.index(min(lista))}...')
 
-print (lista.reverse = True)
