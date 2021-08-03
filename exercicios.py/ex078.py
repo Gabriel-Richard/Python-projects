@@ -13,7 +13,8 @@ for c in range (0, 5):
 Vm = max(lista)
 
 for x in lista:
-    if vm == 
+    if x == Vm:
+        num = x
     print (x)
 
 print ('-='*20)
